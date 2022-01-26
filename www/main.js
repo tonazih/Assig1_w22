@@ -13,7 +13,7 @@ $(function(){
     // get phone number used in a previous session, if any
     var phone = getPhoneNumber();
     if(phone === false){
-        phone = makeID();
+        phone = "555 555 5555";
         localStorage.setItem('fake-number', phone);
     }
 
